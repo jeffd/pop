@@ -9,10 +9,8 @@ let package = Package(
               .iOS(.v12),
               .tvOS(.v12)],
     products: [
-        .library(name: "libpop",
-                 targets: ["pop-ios-static"]),
         .library(name: "pop",
-               targets: ["pop-ios-framework"]),
+               targets: ["pop"]),
     ],
     targets: [
       .target(name: "pop",
